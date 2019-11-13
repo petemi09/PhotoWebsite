@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(20, 20, 22);
     max-width: 100%;
     margin: 0;
 }
@@ -46,3 +46,74 @@ ul#nav1{
   
   }
 
+  .header {
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+  }
+
+  .statement2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+  }
+
+
+  nav#footerNavBar {
+    /* padding-top: 10px; */
+    position: relative;
+    background-color: white;
+    text-align: center;
+  }
+  
+  ul#footerNav {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    height: 58px;
+    left: 28%;
+    overflow: auto; 
+  }
+  
+  li#footerNav {
+    float: left;
+  }
+  
+  li a#footerNav {
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 28;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  }
+  
+  li a:hover:not(.active)#footerNav {
+    background-color: rgb(99, 99, 99);
+  }
+  
+  .active#footerNav {
+    background-color: #4CAF50;
+  }
+  
+  .logos2 {
+    width: 30px;
+    height: 30px;
+  }
+  
+   footer{
+    position: relative;
+    color: white;
+    /* top: 20px; */
+    /* top: -300px; */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+   }

@@ -162,7 +162,16 @@ img#selfPhoto {
   /* border-radius: 100px; */
 }
 p#statement {
-   
+  padding-top: 100px;
+  padding-left: 70px;
+  float: left;
+  color: white;
+  position: relative;
+  /* padding: 60px 65px; */
+  /* left: 500; */
+  /* top: -450; */
+  font-size: 24;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
 p#creative1 {
