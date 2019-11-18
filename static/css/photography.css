@@ -47,4 +47,82 @@ ul#nav1{
   
   }
 
+  /* header */
+  h2 {
+    color: white;
+    text-align: center;
+  }
+
+  .paragraph {
+    color: white;
+    text-align: center;
+  }
+
+
+  .column {
+      -ms-flex: 20%; /* IE 10 */
+      flex: 20%;
+      padding: 0 4px;
+  }
+
+  .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+  }
+  .row {
+      display: -ms-flexbox; /* IE 10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE 10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+  }
+
+
+
+/* footer */
+nav#footerNavBar {
+  top: 10px;
+  position: relative;
+  background-color: white;
+  text-align: center;
+}
+
+ul#footerNav {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  height: 58px;
+  left: 32%;
+  overflow: auto; 
+}
+
+li#footerNav {
+  float: left;
+}
+
+li a#footerNav {
   
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  font-size: 28;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+li a:hover:not(.active)#footerNav {
+  background-color: rgb(99, 99, 99);
+}
+
+.active#footerNav {
+  background-color: #4CAF50;
+}
+
+.logos2 {
+  width: 30px;
+  height: 30px;
+}

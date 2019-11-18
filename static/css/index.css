@@ -132,6 +132,8 @@ li a:hover:not(.active)#nav2 {
   height: 30px;
 }
 
+
+/* move down button */
 div#moveDown {
   top: 30px;
   text-align: left;
@@ -201,7 +203,7 @@ ul#footerNav {
   width: 100%;
   position: relative;
   height: 58px;
-  left: 28%;
+  left: 32%;
   overflow: auto; 
 }
 
