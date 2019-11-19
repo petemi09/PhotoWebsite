@@ -21,7 +21,7 @@ body {
   /* The image used */
   background-image: url("../myPhotos/MOP2.jpg");
 
-  min-height: 660px;
+  min-height: 660px; 
   max-width: 100%;
 
   /* Center and scale the image nicely */
@@ -29,9 +29,8 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  /* Needed to position the navbar */
   position: relative;
+  background-position: center;
 }
 
 ul#nav1{
@@ -45,7 +44,6 @@ ul#nav1{
   padding-top: 60px;
   padding-right: 60px;
   overflow: hidden;
-  /* background-color: #333; */
 }
 li#nav1 {
   float: right;
@@ -72,9 +70,7 @@ li a:hover:not(.active)#nav1 {
   transition: 1s; 
   -webkit-transition: 1s;
   opacity: 0.8;
-  /* filter: alpha(opacity=12); */
   background-color: rgba(136, 135, 135, 0.548);
-
 }
 
 p#name {
@@ -88,8 +84,6 @@ div#messageBox {
   margin-left: -66px;
   top: 95px;
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-  /* font-family:georgia,garamond,serif; */
-  /* font-size:16px;font-style:italic; */
 }
 
 
@@ -154,34 +148,42 @@ div#about {
   position: relative;
   padding-top: 40px;
   padding-left: 30px;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
+
+div#about {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  left: 8%;
+  text-align: center;
+  overflow: auto;
+}
+
 
 img#selfPhoto {
   width: 440px;
-  /* height: 540px; */
   float: left;
-  /* border-radius: 100px; */
 }
+
 p#statement {
-  padding-top: 100px;
+  padding-top: 15px;
+  width: 600px;
   padding-left: 70px;
   float: left;
   color: white;
   position: relative;
-  /* padding: 60px 65px; */
-  /* left: 500; */
-  /* top: -450; */
-  font-size: 24;
+  font-size: 28;
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
+
+
 
 p#creative1 {
   position: relative;
   text-align: center;
-  padding-top: 50px;
-  /* padding-bottom: 5px; */
-  /* padding: 10px 10px; */
+  padding-top: 25px;
   clear: left;
   color: white;
   font-size: 40px;

@@ -3,29 +3,7 @@
         <!-- <link rel="stylesheet" href="static/css/software.css"> -->
         <link rel="stylesheet" href="static/css/photography.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    
-
-    <!-- <style>
-        div.column {
-            -ms-flex: 20%; /* IE 10 */
-            flex: 20%;
-            padding: 0 4px;
-        }
-
-        div.column img {
-            margin-top: 8px;
-            vertical-align: middle;
-        }
-        div.row {
-            display: -ms-flexbox; /* IE 10 */
-            display: flex;
-            -ms-flex-wrap: wrap; /* IE 10 */
-            flex-wrap: wrap;
-            padding: 0 4px;
-        }
-    
-    </style> -->
+        
     </head>
     <body>
         <ul id="nav1">
@@ -67,6 +45,12 @@
     </div>
             
  
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
     <script>
     function four() {
         for (i = 0; i < elements.length; i++) {
@@ -75,6 +59,28 @@
         }
       }
     </script>
+    <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+            </script>
     <!---->
 
     <nav id="footerNavBar">
@@ -82,9 +88,8 @@
           <li id="footerNav"><a id="footerNav" href="https://github.com/petemi09"><img class="logos2" src="static/logoImages/github.png"></a></li>
           <li id="footerNav"><a id="footerNav" href="https://instgram.com/mitchell_petellin"><img class="logos2" src="static/logoImages/instagram.png"></a></li>
           <li id="footerNav"><a id="footerNav" href="https://www.facebook.com/mitchell.petellin.1"><img class="logos2" src="static/logoImages/facebook.png"></a></li>
-          <!-- <li id="footerNav"><a id="footerNav" href="photography.html">Photography</a></li> -->
+          <li id="footerNav"><a id="footerNav" href="photography.html">Photography</a></li>
           <li id="footerNav"><a id="footerNav" href="software.html">Software</a></li>
-          <li id="footerNav"><a id="footerNav" href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
