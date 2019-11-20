@@ -41,14 +41,15 @@
       </nav>
       <div id="moveDown">
         <p>Read More</p>
-        <a href="#section2" onclick="scrollDown()"><img id="downarrow" src="static/logoImages/white-down-arrow-png-2.png"></a>
+        <!-- <a href="#section2" onclick="scrollDown()"><img id="downarrow" src="static/logoImages/white-down-arrow-png-2.png"></a> -->
+        <a href="#section2" onclick="scrollWin()"><img id="downarrow" src="static/logoImages/white-down-arrow-png-2.png"></a>
       </div>
   </div>
 </div>
 
 
 <div id=about>
-  <div id="section2">
+  <div class="main" id="section2">
     <img id="selfPhoto" src="static/myPhotos/IMG_0408.JPG">
     <!-- <div id="statement"> -->
         <!-- <p id="statement" style="font-size:2.35vw;"> -->
@@ -83,6 +84,12 @@
       <!-- <li id="footerNav"><a id="footerNav" href="contact.html">Contact</a></li> -->
     </ul>
 </nav>
+
+<script>
+  function scrollWin() {
+    window.scrollTo(0, 300);
+  }
+</script>
 <footer>
   <p> Mitchell Petellin &copy;</p>
 </footer>
