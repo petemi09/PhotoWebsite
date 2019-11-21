@@ -87,7 +87,8 @@ ul#nav1{
 
 /* footer */
 nav#footerNavBar {
-  top: 10px;
+  /* top: 10px; */
+  
   position: relative;
   background-color: white;
   text-align: center;
@@ -98,15 +99,17 @@ ul#footerNav {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 60%;
   position: relative;
   height: 58px;
   left: 32%;
   overflow: auto; 
+  /* padding-left: 50px; */
 }
 
 li#footerNav {
   float: left;
+  
 }
 
 li a#footerNav {
@@ -117,6 +120,7 @@ li a#footerNav {
   padding: 14px 14px;
   font-size: 28;
   text-decoration: none;
+  
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
 }
 
