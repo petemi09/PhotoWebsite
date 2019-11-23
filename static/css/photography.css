@@ -118,7 +118,7 @@ li a#footerNav {
   color: black;
   text-align: center;
   padding: 14px 14px;
-  font-size: 28;
+  font-size: 26;
   text-decoration: none;
   
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
@@ -136,3 +136,13 @@ li a:hover:not(.active)#footerNav {
   width: 30px;
   height: 30px;
 }
+
+
+footer{
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+ }
