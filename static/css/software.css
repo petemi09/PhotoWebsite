@@ -12,7 +12,7 @@
     color: white;
     border-radius: 10px;
   }
-  
+
   body {
     background-color: rgb(20, 20, 22);
     max-width: 100%;
@@ -218,7 +218,7 @@ p#creative1 {
 
 
 /*desktop*/
-/*
+
 @media screen and (min-width: 651px) {
   .topnav {display: none;}
   html {
@@ -300,7 +300,7 @@ p#creative1 {
 
     
     /* vertical navbar */
-   /* ul#nav2 {
+    ul#nav2 {
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -468,4 +468,4 @@ p#creative1 {
       font-size: 20px;
       padding-bottom: 10px;
     }
-  } */
+  } 
