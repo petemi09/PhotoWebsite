@@ -97,7 +97,7 @@
 #table {
     /* top: -100px; */
     position: relative;
-    left: 15%;
+    /*left: 15%;*/
     
 }
 
@@ -141,12 +141,14 @@ td, th {
   position: relative;
   color: white;
   text-align: center;
+  font-size: 24px;
 }
 
 .statement2 {
   color: white;
   text-align: center;
   position: relative;
+  font-size: 18px;
   /* top: -70px; */
   padding-left: 30px;
   padding-right: 30px;
@@ -405,6 +407,7 @@ p#creative1 {
     position: relative;
     color: white;
     text-align: center;
+    font-size: 24px;
   }
 
   .statement2 {
@@ -416,6 +419,7 @@ p#creative1 {
     padding-bottom: 5px;
     width: 50%;
     left: 25%;
+    font-size: 18px;
     
   }
 
