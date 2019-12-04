@@ -3,7 +3,14 @@
     display: none
   }
   
-  
+  .mobile-container {
+    max-width: 320px;
+    margin: auto;
+    background-color: blue;
+    /* height: 500px; */
+    color: white;
+    border-radius: 10px;
+  }
 
   body {
     background-color: rgb(20, 20, 22);

@@ -1,8 +1,18 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 650px) {
   #horizontalNavbar{
     display: none
   }
 
+
+  .mobile-container {
+    max-width: 320px;
+    margin: auto;
+    background-color: blue;
+    /* height: 500px; */
+    color: white;
+    border-radius: 10px;
+  }
+  
   body {
     background-color: rgb(20, 20, 22);
     max-width: 100%;
