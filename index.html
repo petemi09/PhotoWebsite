@@ -10,23 +10,63 @@
 </head>
 <body>
 
-<div id="horizontalNavbar">
+<!-- was creating a mobile vesion -->
+
+<!-- <div class="mobile-container"> -->
+<div class="desktopNav">
+  <ul id="nav1">
+    <!-- <li id="nav1"><a id="nav1" href="contact.html">Contact</a></li> -->
+    <li id="nav1"><a id="nav1" href="software.html">Software</a></li>
+    <li id="nav1"><a id="nav1" href="photography.html">Photography</a></li>
+  </ul>
+</div>
+
+
+<div class="topnav">
+  <a class="active">Home</a>
+  <div id="myLinks">
+    <a id="links" href="software.html">Software</a>
+    <a id="links" href="photography.html">Photography</a>
+  </div>
+  <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()" >
+    <i class="fa fa-bars" ></i>
+    
+  </a> -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <img src="static/logoImages/hamburger-navigation-icon-9.png" style="width:29px; height: 29px;">
+  </a>
+  <!-- <img id="bars" href="/static/logoImages/hamburger-navigation-icon-9.png" class="icon" onclick="myFunction()"> -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+<!-- <div id="horizontalNavbar"> -->
   <div class="bg-img">
     <div class="container">
-      <div class="topnav">
+      <!-- <div class="topnav">
         <ul id="nav1">
           <li id="name">Mitchell Petellin</li>
-          <!-- <li id="nav1"><a id="nav1" href="contact.html">Contact</a></li> -->
-          <li id="nav1"><a id="nav1" href="software.html">Software</a></li>
+           <li id="nav1"><a id="nav1" href="contact.html">Contact</a></li> -->
+          <!-- <li id="nav1"><a id="nav1" href="software.html">Software</a></li>
           <li id="nav1"><a id="nav1" href="photography.html">Photography</a></li>
-        </ul>
-      </div>
+        </ul> -->
+      <!-- </div> -->
       <div id="messageBox">
         <p id="name">
           M I T C H E L L <br>
           P E T E L L I N
         </p>
-        <p>Self-learning programmer and photographer<br>
+        <p id="openingStatement">Self-learning programmer and photographer<br>
           through practice, patients, research and developement.
         
         </p>
@@ -40,50 +80,47 @@
           </ul>
       </nav>
       <div id="moveDown">
-        <p>Read More</p>
+        <!-- <p>Read More</p> -->
         <!-- <a href="#section2" onclick="scrollDown()"><img id="downarrow" src="static/logoImages/white-down-arrow-png-2.png"></a> -->
         <a href="#section2" onclick="scrollWin()"><img id="downarrow" src="static/logoImages/white-down-arrow-png-2.png"></a>
       </div>
   </div>
-</div>
+<!-- </div> -->
 
 
 <div id=about>
   <div class="main" id="section2">
     <img id="selfPhoto" src="static/myPhotos/IMG_0408.JPG">
-    <!-- <div id="statement"> -->
+    <!-- <img src="static/myPhotos/IMG_0408.JPG" height="99" width="99" alt="Image" style="float:left; margin:4px 10px 0px 0px; border: 1px solid #000000;"> -->
+     <!-- <div id="statement"> -->
         <!-- <p id="statement" style="font-size:2.35vw;"> -->
-          <p id="statement">
-            My greatest learnings have come from when I made mistakes.
-            I think that making mistakes are crucial to an individuals
-            learning. It has pushed me to look for better solutions and
-            shown me the right and wrong way to do something. Hi I'm
-            Mitchell Petellin and I have a degree in programming, but
-            it's much more then that. It is a great way for me to have
-            continuous learning and have the oppurtunity to challeng and
-            grow my learning every day. I also am a hobbyist photographer,
-             who has been lucky to capture unforgetable moments with my
-            camera to share with family and friends! I try each day to be
-            a better person then I was yesterday.
-        </p>
+      <p id="statement">
+        My greatest learnings have come from when I made mistakes.
+        I think that making mistakes are crucial to an individuals
+        learning. It has pushed me to look for better solutions and
+        shown me the right and wrong way to do something. Hi I'm
+        Mitchell Petellin and I have a degree in programming, but
+        it's much more then that. It is a great way for me to have
+        continuous learning and have the oppurtunity to challeng and
+        grow my learning every day. I also am a hobbyist photographer,
+          who has been lucky to capture unforgetable moments with my
+        camera to share with family and friends! I try each day to be
+        a better person then I was yesterday.
+      </p>
       <!-- </div> -->
   </div>
 </div>
 
 
 <p id="creative1">STAY CREATIVE</p>
+<div id="myDIV">
+  <ul class="nav">
+    <li id="footerNav"><a id="footerNav" href="https://github.com/petemi09"><img class="logos2" src="static/logoImages/github.png"></a></li>
+    <li id="footerNav"><a id="footerNav" href="https://instgram.com/mitchell_petellin"><img class="logos2" src="static/logoImages/instagram.png"></a></li>
+    <li id="footerNav"><a id="footerNav" href="https://www.facebook.com/mitchell.petellin.1"><img class="logos2" src="static/logoImages/facebook.png"></a></li>
+  </ul>
+</div>
 
-
-<nav id="footerNavBar">
-    <ul id="footerNav">
-      <li id="footerNav"><a id="footerNav" href="https://github.com/petemi09"><img class="logos2" src="static/logoImages/github.png"></a></li>
-      <li id="footerNav"><a id="footerNav" href="https://instgram.com/mitchell_petellin"><img class="logos2" src="static/logoImages/instagram.png"></a></li>
-      <li id="footerNav"><a id="footerNav" href="https://www.facebook.com/mitchell.petellin.1"><img class="logos2" src="static/logoImages/facebook.png"></a></li>
-      <li id="footerNav"><a id="footerNav" href="photography.html">Photography</a></li>
-      <li id="footerNav"><a id="footerNav" href="software.html">Software</a></li>
-      <!-- <li id="footerNav"><a id="footerNav" href="contact.html">Contact</a></li> -->
-    </ul>
-</nav>
 
 <script>
   function scrollWin() {
@@ -93,6 +130,8 @@
 <footer>
   <p> Mitchell Petellin &copy;</p>
 </footer>
+</div>
+
   
 </body>
 </html>

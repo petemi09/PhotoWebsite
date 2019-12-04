@@ -6,6 +6,39 @@
         
     </head>
     <body>
+
+
+    <!-- mobile nav bar-->
+    <div class="topnav">
+            <a class="active">Photography</a>
+            <div id="myLinks">
+              <a id="links" href="index.html">Home</a>
+              <a id="links" href="software.html">Software</a>
+              <!-- <a id="links" href="photography.html">Photography</a> -->
+              
+            </div>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()" >
+              <i class="fa fa-bars" ></i>
+              
+            </a> -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <img src="static/logoImages/hamburger-navigation-icon-9.png" style="width:29px; height: 29px;">
+            </a>
+            <!-- <img id="bars" href="/static/logoImages/hamburger-navigation-icon-9.png" class="icon" onclick="myFunction()"> -->
+          </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                x.style.display = "none";
+                } else {
+                x.style.display = "block";
+                }
+            }
+        </script>
+
+        <!-- desktop nav bar-->
         <ul id="nav1">
             <li id="name">Mitchell Petellin</li>
             
@@ -83,7 +116,7 @@
             </script>
     <!---->
 
-    <nav id="footerNavBar">
+    <!-- <nav id="footerNavBar">
         <ul id="footerNav">
           <li id="footerNav"><a id="footerNav" href="https://github.com/petemi09"><img class="logos2" src="static/logoImages/github.png"></a></li>
           <li id="footerNav"><a id="footerNav" href="https://instgram.com/mitchell_petellin"><img class="logos2" src="static/logoImages/instagram.png"></a></li>
@@ -91,7 +124,16 @@
           <li id="footerNav"><a id="footerNav" href="photography.html">Photography</a></li>
           <li id="footerNav"><a id="footerNav" href="software.html">Software</a></li>
         </ul>
-    </nav>
+    </nav> -->
+    
+
+    <div id="myDIV">
+        <ul class="nav">
+            <li id="footerNav"><a id="footerNav" href="https://github.com/petemi09"><img class="logos2" src="static/logoImages/github.png"></a></li>
+            <li id="footerNav"><a id="footerNav" href="https://instgram.com/mitchell_petellin"><img class="logos2" src="static/logoImages/instagram.png"></a></li>
+            <li id="footerNav"><a id="footerNav" href="https://www.facebook.com/mitchell.petellin.1"><img class="logos2" src="static/logoImages/facebook.png"></a></li>
+        </ul>
+    </div>
 
     <footer>
         <p> Mitchell Petellin &copy;</p>
