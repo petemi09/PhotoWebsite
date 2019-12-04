@@ -305,7 +305,7 @@
 
 
  /* for desktop! */
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 726px) {
   .topnav {display: none;}
   
   
