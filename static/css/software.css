@@ -180,21 +180,29 @@ p#creative1 {
     height: 30px;
   }
   
-  .nav{
-    border-width: 1px 0;
-    margin: 0;
-    padding: 0;
-    text-align-last: center;
+  #myDIV {
+    /* border: solid 4px green; */
     background-color: white;
+    /* left: 50%;
+    position: relative; */
   }
-  
+
+  .nav{
+    padding-right: 30px;
+    list-style-type: none;
+    text-align: center;
+  }
+
   .nav li {
-    display: inline;
+    display: inline-block;
   }
-  
+
   .nav a {
     display: inline-block;
     padding: 10px;
+    
+    
+    /* padding-right: 25px; */
   }
   
   .nav a:hover {
@@ -450,21 +458,32 @@ p#creative1 {
       height: 30px;
     }
     
-    .nav{
-      border-width: 1px 0;
-      margin: 0;
-      padding: 0;
-      text-align-last: center;
+    #myDIV {
+      /* border: solid 4px green; */
       background-color: white;
+      /* left: 50%;
+      position: relative; */
     }
-    
+  
+    .nav{
+      padding-right: 30px;
+      list-style-type: none;
+      text-align: center;
+    }
+  
     .nav li {
-      display: inline;
+      display: inline-block;
+      
+      
+      
     }
-    
+  
     .nav a {
       display: inline-block;
       padding: 10px;
+      
+      
+      /* padding-right: 25px; */
     }
     
     .nav a:hover {

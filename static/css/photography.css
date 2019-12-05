@@ -105,21 +105,32 @@
     height: 30px;
   }
 
-  .nav{
-    border-width: 1px 0;
-    margin: 0;
-    padding: 0;
-    text-align-last: center;
+  #myDIV {
+    /* border: solid 4px green; */
     background-color: white;
+    /* left: 50%;
+    position: relative; */
+  }
+
+  .nav{
+    padding-right: 30px;
+    list-style-type: none;
+    text-align: center;
   }
 
   .nav li {
-    display: inline;
+    display: inline-block;
+    
+    
+    
   }
 
   .nav a {
     display: inline-block;
     padding: 10px;
+    
+    
+    /* padding-right: 25px; */
   }
 
   .nav a:hover {
@@ -248,74 +259,33 @@ ul#nav1{
 
 
 
-/* footer */
-/* nav#footerNavBar {
-  
-  
-  position: relative;
-  background-color: white;
-  text-align: center;
-}
+  #myDIV {
+    /* border: solid 4px green; */
+    background-color: white;
+    /* left: 50%;
+    position: relative; */
+  }
 
-ul#footerNav {
-  list-style-type: none;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  width: 60%;
-  position: relative;
-  height: 58px;
-  left: 32%;
-  overflow: auto; 
-  
-}
+  .nav{
+    padding-right: 30px;
+    list-style-type: none;
+    text-align: center;
+  }
 
-li#footerNav {
-  float: left;
-  
-}
+  .nav li {
+    display: inline-block;
+    
+    
+    
+  }
 
-li a#footerNav {
-  
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 14px;
-  font-size: 26;
-  text-decoration: none;
-  
-  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-}
-
-li a:hover:not(.active)#footerNav {
-  background-color: rgb(99, 99, 99);
-}
-
-.active#footerNav {
-  background-color: #4CAF50;
-} */
-
-.logos2 {
-  width: 30px;
-  height: 30px;
-}
-
-.nav{
-  border-width: 1px 0;
-  margin: 0;
-  padding: 0;
-  text-align-last: center;
-  background-color: white;
-}
-
-.nav li {
-  display: inline;
-}
-
-.nav a {
-  display: inline-block;
-  padding: 10px;
-}
+  .nav a {
+    display: inline-block;
+    padding: 10px;
+    
+    
+    /* padding-right: 25px; */
+  }
 
 .nav a:hover {
   background-color: rgb(99, 99, 99);
