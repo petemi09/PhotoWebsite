@@ -237,26 +237,35 @@
     height: 30px;
   }
 
-
+  #myDIV {
+    border: solid 4px green;
+    background-color: blue;
+  }
 
   .nav{
     border-width: 1px 0;
-    margin: auto;
-    padding: 0;
-    text-align-last: center;
+    margin: 0;
     position: relative;
+    /* padding-top: 50px; */
+    text-align-last: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
     border: solid 4px red;
+    padding-left: 10px;
+    /* padding-right: 200px; */
   }
 
   .nav li {
     display: inline;
+    
     
   }
 
   .nav a {
     display: inline-block;
     padding: 10px;
+    
     
     /* padding-right: 25px; */
   }
@@ -358,7 +367,7 @@
     z-index: 5;
     
     margin: 0;
-    font-size: 20px;
+    font-size: 17px;
     
     padding-top: 58px;
     padding-right: 15px;
