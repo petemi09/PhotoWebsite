@@ -244,16 +244,20 @@
     margin: auto;
     padding: 0;
     text-align-last: center;
+    position: relative;
     background-color: white;
+    border: solid 4px red;
   }
 
   .nav li {
     display: inline;
+    
   }
 
   .nav a {
     display: inline-block;
     padding: 10px;
+    
     /* padding-right: 25px; */
   }
 
