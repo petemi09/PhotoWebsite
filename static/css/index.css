@@ -33,6 +33,7 @@
     position: relative;
     width: 100%;
     transition: 0.5s;
+    /* height: 10px; */
   }
 
   .topnav #myLinks {
@@ -99,7 +100,7 @@
     background-image: url("../myPhotos/MOP2.jpg");
     min-height: 480px; 
     max-width: 100%;
-    top: -40;
+    top: -30;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

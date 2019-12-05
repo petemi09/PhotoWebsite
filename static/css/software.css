@@ -97,12 +97,16 @@
 #table {
     /* top: -100px; */
     position: relative;
-    left: 15%;
+    /* width:100%; */
+    /* left: 15%; */
+    /* padding-left: 100px; */
+    border: solid 4px red;
     
 }
 
 tr#listHeader {
     background-color: rgb(161, 161, 161);
+    
 }
 
 table {
@@ -112,6 +116,7 @@ table {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     color: black;
     border-collapse: collapse;
+    left:15%;
     width: 70%; 
     background-color: rgb(255, 255, 255);
     
@@ -355,7 +360,8 @@ p#creative1 {
       color: white;
       font-family: 'Franklin Gothic Medium', Arial, sans-serif;
       position: relative;
-      
+      padding-right: 15px;
+      padding-left: 15px;
       text-align: center;
   }
 
@@ -405,6 +411,8 @@ p#creative1 {
     position: relative;
     color: white;
     text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   }
 
   .statement2 {
@@ -416,7 +424,8 @@ p#creative1 {
     padding-bottom: 5px;
     width: 50%;
     left: 25%;
-    
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   }
 
 
