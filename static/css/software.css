@@ -146,12 +146,14 @@ td, th {
   position: relative;
   color: white;
   text-align: center;
+  font-size: 24px;
 }
 
 .statement2 {
   color: white;
   text-align: center;
   position: relative;
+  font-size: 18px;
   /* top: -70px; */
   padding-left: 30px;
   padding-right: 30px;
@@ -411,8 +413,12 @@ p#creative1 {
     position: relative;
     color: white;
     text-align: center;
+<<<<<<< HEAD
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+=======
+    font-size: 24px;
+>>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
   .statement2 {
@@ -424,8 +430,13 @@ p#creative1 {
     padding-bottom: 5px;
     width: 50%;
     left: 25%;
+<<<<<<< HEAD
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+=======
+    font-size: 18px;
+    
+>>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
 

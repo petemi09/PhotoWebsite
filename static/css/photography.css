@@ -71,13 +71,21 @@
   h2 {
     color: white;
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+=======
+    font-size: 26px;
+>>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
   .paragraph {
     color: white;
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+=======
+    font-size: 17px;
+>>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
 
@@ -217,11 +225,13 @@ ul#nav1{
   h2 {
     color: white;
     text-align: center;
+    font-size: 26px;
   }
 
   .paragraph {
     color: white;
     text-align: center;
+    font-size: 17px;
   }
 
 
