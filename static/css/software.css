@@ -100,7 +100,7 @@
     /* width:100%; */
     /* left: 15%; */
     /* padding-left: 100px; */
-    border: solid 4px red;
+    /* border: solid 4px red; */
     
 }
 
@@ -260,6 +260,7 @@ p#creative1 {
       padding-top: 60px;
       padding-right: 60px;
       overflow: hidden;
+      font-size: 20px;
     }
     li#nav1 {
       float: right;
@@ -413,12 +414,8 @@ p#creative1 {
     position: relative;
     color: white;
     text-align: center;
-<<<<<<< HEAD
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-=======
-    font-size: 24px;
->>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
   .statement2 {
@@ -428,15 +425,11 @@ p#creative1 {
     top: -70px;
     padding: 20px;
     padding-bottom: 5px;
-    width: 50%;
-    left: 25%;
-<<<<<<< HEAD
+    width: 70%;
+    /* left: 25%; */
+    left: 15%;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-=======
-    font-size: 18px;
-    
->>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
 

@@ -71,21 +71,13 @@
   h2 {
     color: white;
     text-align: center;
-<<<<<<< HEAD
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-=======
-    font-size: 26px;
->>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
   .paragraph {
     color: white;
     text-align: center;
-<<<<<<< HEAD
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-=======
-    font-size: 17px;
->>>>>>> 73fe360500b9b2df3ec9450ce1a50282b660fb41
   }
 
 
@@ -189,6 +181,7 @@ ul#nav1{
     padding-top: 60px;
     padding-right: 50px;
     overflow: hidden;
+    font-size: 20px;
     /* background-color: #333; */
   }
   li#nav1 {
