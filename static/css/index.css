@@ -81,13 +81,6 @@
   }
 
 
-
-
-
-
-
-
-
   body {
     background-color: rgb(20, 20, 22);  
     margin:0;
@@ -402,10 +395,12 @@
     border-width: 1px 0;
     margin: 0;
     padding: 0;
-    text-align-last: center;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 150px;
+    /* text-align-last: center; */
+    text-align: center;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    top: 110px;
+    /* border: solid 4px green; */
   }
 
   div#messageBox {
@@ -534,32 +529,21 @@
 
 
 
-  #myDIV {
-    /* border: solid 4px green; */
-    background-color: white;
-    /* left: 50%;
-    position: relative; */
-  }
-
   .nav{
-    padding-right: 30px;
-    list-style-type: none;
-    text-align: center;
+    border-width: 1px 0;
+    margin: 0;
+    padding: 0;
+    text-align-last: center;
+    background-color: white;
   }
 
   .nav li {
-    display: inline-block;
-    
-    
-    
+    display: inline;
   }
 
   .nav a {
     display: inline-block;
     padding: 10px;
-    
-    
-    /* padding-right: 25px; */
   }
 
   .nav a:hover {
