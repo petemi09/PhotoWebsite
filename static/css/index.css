@@ -91,7 +91,8 @@
 
   .bg-img {
     /* The image used */
-    background-image: url("../myPhotos/MOP2.jpg");
+    /* background-image: url("../myPhotos/MOP2.jpg"); */
+    background-image: url("../myPhotos/MOP2.WEBP");
     min-height: 480px; 
     max-width: 100%;
     top: -30;
